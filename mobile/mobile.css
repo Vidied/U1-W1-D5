@@ -1,0 +1,33 @@
+/* GENERALE */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+  font-size: 1.2rem;
+  text-align: center;
+  width: 40px;
+  padding: 0 1.35em 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h5,
+h6 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  line-height: 1;
+}
+
+img {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+/* HEADER */
+
+/* MAIN SECTION 1 */
+/* MAIN SECTION 2 */
+/* MAIN SECTION 3 */
+/* FOOTER */

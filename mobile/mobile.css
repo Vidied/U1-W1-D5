@@ -58,7 +58,11 @@ button {
   margin: 1em 0 3em;
   color: white;
 }
-
+button:hover {
+  cursor: pointer;
+  background-color: #d13d24;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .prima article {
   background-image: url(../asssets/images/banner.jpg);
   background-size: 155%;

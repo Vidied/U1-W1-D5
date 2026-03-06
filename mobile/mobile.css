@@ -46,7 +46,7 @@ header img {
   margin: 2em;
 }
 /* MAIN SECTION 1 */
-input {
+button {
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -56,9 +56,6 @@ input {
   border-radius: 5px;
   border: none;
   margin: 1em 0 3em;
-}
-
-input::placeholder {
   color: white;
 }
 

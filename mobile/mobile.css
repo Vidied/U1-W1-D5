@@ -62,18 +62,18 @@ input::placeholder {
   border-radius: 180px;
 }
 /* MAIN SECTION 2 */
-.middle {
+.seconda {
   background-color: #e22d0e;
   color: white;
   padding: 2em 0 1em 0;
-  margin-bottom: 3em;
+  margin: 3.5em 0 3em;
 }
 
-.middle h2 {
+.seconda h2 {
   color: white;
 }
 
-.middle .commento {
+.seconda .commento {
   font-style: italic;
   font-weight: 300;
 }
@@ -87,6 +87,9 @@ span {
 }
 
 /* MAIN SECTION 3 */
+.terza p {
+  margin-bottom: 4em;
+}
 /* FOOTER */
 footer {
   background-color: #25a2c3;

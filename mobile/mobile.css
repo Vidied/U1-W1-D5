@@ -1,5 +1,6 @@
 /* GENERALE */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 body {
   color: #393d41;
   font-family: "Open Sans", sans-serif;
@@ -33,15 +34,16 @@ p {
 /* HEADER */
 header {
   width: 100%;
-  height: 5.5em;
-  line-height: 5.5em;
+  height: 6.5em;
   background-color: black;
   text-align: center;
+  box-sizing: border-box;
 }
 
 header img {
-  width: 9em;
+  height: 2.5em;
   vertical-align: middle;
+  margin: 2em;
 }
 /* MAIN SECTION 1 */
 input {

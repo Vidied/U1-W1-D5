@@ -6,9 +6,7 @@ body {
   line-height: 1.65;
   font-size: 1.2rem;
   text-align: center;
-  width: 40px;
-  padding: 0 1.35em 0;
-  box-sizing: border-box;
+  width: 410px;
 }
 
 h1,
@@ -24,10 +22,99 @@ h6 {
 img {
   box-sizing: border-box;
   max-width: 100%;
+  padding: 0 1.35em 0;
 }
-/* HEADER */
 
+p {
+  padding: 0 1.3em 0;
+}
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 5.5em;
+  line-height: 5.5em;
+  background-color: black;
+  text-align: center;
+}
+
+header img {
+  width: 9em;
+  vertical-align: middle;
+}
 /* MAIN SECTION 1 */
+input {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  width: 10.5em;
+  height: 3em;
+  border-radius: 5px;
+  border: none;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.phtonda {
+  border-radius: 180px;
+}
 /* MAIN SECTION 2 */
+.middle {
+  background-color: #e22d0e;
+  color: white;
+  padding: 2em 0 1em 0;
+  margin-bottom: 3em;
+}
+
+.middle h2 {
+  color: white;
+}
+
+.middle .commento {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.nome {
+  line-height: 1.2;
+}
+
+span {
+  font-size: small;
+}
+
 /* MAIN SECTION 3 */
 /* FOOTER */
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  padding: 1.5em 0 3em 0;
+  line-height: 1;
+  margin-top: 6em;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+.info p {
+  margin-bottom: 0;
+}
+
+.copy-box {
+  margin-top: 3em;
+}
+
+.copyright {
+  display: inline;
+  border-top: 1px solid #c8e7f0;
+  padding: 2.5em 0;
+  font-size: small;
+}

@@ -33,13 +33,12 @@ header {
   height: 6em;
   line-height: 6em;
   text-align: left;
-  padding-left: 2em;
 }
 
 header img {
   vertical-align: middle;
   height: 2.5em;
-  margin-right: auto;
+  margin-left: 2em;
 }
 
 /*MAIN 1 */
@@ -78,8 +77,11 @@ button:hover {
   padding: 1em 0 4em 0;
 }
 
-.prima-p2 img,
-div {
+.prima-p2 img {
+  display: inline-block;
+}
+
+.prima-p2 div {
   display: inline-block;
 }
 
@@ -165,30 +167,36 @@ span {
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;
-  padding: 1.5em 0 3em 0;
-  line-height: 1;
+  padding-top: 1.5em;
   margin-top: 6em;
 }
 
 footer h2 {
   color: white;
+  font-size: 2em;
 }
 
 footer a {
   color: #c8e7f0;
 }
 
-.info p {
-  margin-bottom: 0;
+footer article {
+  margin: 0 auto;
+  padding: 0.8em 0 0 0;
+  display: inline-block;
+  text-align: start;
 }
 
-.copy-box {
-  margin-top: 3em;
+.info p {
+  display: block;
+  font-size: small;
+  margin: 0;
 }
 
 .copyright {
-  display: inline;
   border-top: 1px solid #c8e7f0;
-  padding: 2.5em 0;
+  padding: 2em 0;
   font-size: small;
+  margin: 2em 0 0 0;
+  text-align: center;
 }

@@ -63,7 +63,7 @@ button:hover {
 
 .prima-p1 {
   background-image: url(../asssets/images/banner.jpg);
-  background-size: 100%;
+  background-size: cover;
   height: 15em;
   padding: 6em 0;
 }
@@ -75,6 +75,7 @@ button:hover {
 .prima-p2 {
   margin: 5em 0;
   padding: 1em 0 4em 0;
+  vertical-align: middle;
 }
 
 .prima-p2 img {

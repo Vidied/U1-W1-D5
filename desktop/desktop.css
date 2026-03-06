@@ -1,4 +1,5 @@
 /* GENERALE */
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 body {
@@ -21,7 +22,9 @@ h6 {
   font-weight: bold;
   line-height: 1;
 }
+
 /* HEADER */
+
 header {
   background-color: black;
   width: 100%;
@@ -36,7 +39,9 @@ header img {
   height: 2.5em;
   margin-right: auto;
 }
+
 /*MAIN 1 */
+
 button {
   background-color: #f04c2f;
   font-family: "Montserrat", sans-serif;
@@ -55,7 +60,7 @@ button:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.prima article {
+.prima-p1 {
   background-image: url(../asssets/images/banner.jpg);
   background-size: 155%;
   background-position: center 0;
@@ -64,7 +69,24 @@ button:hover {
   margin-bottom: 2em;
 }
 
+.prima-p2 img,
+div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.testo {
+  text-align: left;
+  max-width: 36%;
+  margin-left: 5%;
+}
+
+.testo p {
+  margin-bottom: 0;
+}
+
 /* MAIN 2 */
+
 .prima h1 {
   margin-top: 1.5em;
 }
@@ -74,9 +96,11 @@ button:hover {
 }
 
 .phtonda {
-  border-radius: 180px;
+  border-radius: 50%;
 }
+
 /* MAIN SECTION 2 */
+
 .seconda {
   background-color: #e22d0e;
   color: white;
@@ -125,6 +149,7 @@ span {
 }
 
 /* FOOTER */
+
 footer {
   background-color: #25a2c3;
   color: #c8e7f0;

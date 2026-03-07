@@ -105,17 +105,19 @@ span {
 }
 
 /* MAIN SECTION 3 */
+.terza {
+  padding: 0 1.35em 0;
+}
+
 .terza p {
   margin-bottom: 2em;
 }
 
 .terza article {
-  padding: 0 1.35em 2em;
-}
-.terza div {
   border: 1px solid #dee1e3;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  margin-bottom: 2em;
 }
 
 /* FOOTER */
@@ -124,7 +126,7 @@ footer {
   color: #c8e7f0;
   padding: 1.5em 0 3em 0;
   line-height: 1;
-  margin-top: 6em;
+  margin-top: 4em;
 }
 
 footer h2 {
